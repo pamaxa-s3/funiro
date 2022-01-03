@@ -43,7 +43,6 @@ $darkGrayColor: #616161;
 @import "null";
 
 body {
-	background-color: #F9F1E7; //!TEMP
 	color: $mainColor;
 
 	&._lock {
@@ -77,24 +76,6 @@ body {
 //<ОСНОВНОЙ БЛОК>====================================================================================================
 .page {
 	flex: 1 1 auto;
-
-	// .page__main-slider
-	&__main-slider {}
-
-	// .page__advantages
-	&__advantages {}
-
-	// .page__products
-	&__products {}
-
-	// .page__rooms
-	&__rooms {}
-
-	// .page__tips
-	&__tips {}
-
-	// .page__furniture
-	&__furniture {}
 }
 
 //===================================================================================================================================
@@ -111,6 +92,7 @@ body {
 //@import "pagging";
 @import "popup";
 @import "header";
+@import "page__main-slider";
 @import "footer";
 //</ПОДКЛЮЧЕНИЕ ФАЙЛОВ СТИЛЕЙ СТРАНИЦ И ЭЛЕМЕНТОВ>====================================================================================================
 
